@@ -83,11 +83,15 @@
     <Compile Include="Tools\Navigation\INavigationModel.cs" />
     <Compile Include="Tools\Navigation\InitializationNavigationModel.cs" />
     <Compile Include="Tools\RelayCommand.cs" />
+    <Compile Include="ViewModels\AddViewsModels\AddClientViewModel.cs" />
     <Compile Include="ViewModels\Authentication\SignInViewModel.cs" />
     <Compile Include="ViewModels\Authentication\SignUpViewModel.cs" />
     <Compile Include="ViewModels\ClientsViewModel.cs" />
     <Compile Include="ViewModels\MainViewManagerModel.cs" />
     <Compile Include="ViewModels\MainWindowViewModel.cs" />
+    <Compile Include="Views\AddWindows\AddClientView.xaml.cs">
+      <DependentUpon>AddClientView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\Authentication\SignInView.xaml.cs">
       <DependentUpon>SignInView.xaml</DependentUpon>
     </Compile>
@@ -97,8 +101,35 @@
     <Compile Include="Views\ClientsView.xaml.cs">
       <DependentUpon>ClientsView.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\ContactPersonView.xaml.cs">
+      <DependentUpon>ContactPersonView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ContractView.xaml.cs">
+      <DependentUpon>ContractView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\HotelView.xaml.cs">
+      <DependentUpon>HotelView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\IncludeView.xaml.cs">
+      <DependentUpon>IncludeView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\MainViewManager.xaml.cs">
       <DependentUpon>MainViewManager.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PassView.xaml.cs">
+      <DependentUpon>PassView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PhoneNumberView.xaml.cs">
+      <DependentUpon>PhoneNumberView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ResortView.xaml.cs">
+      <DependentUpon>ResortView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TicketView.xaml.cs">
+      <DependentUpon>TicketView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TripView.xaml.cs">
+      <DependentUpon>TripView.xaml</DependentUpon>
     </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -112,6 +143,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Views\AddWindows\AddClientView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\Authentication\SignInView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -124,9 +159,45 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Views\ContactPersonView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\ContractView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\HotelView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\IncludeView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Views\MainViewManager.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\PassView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\PhoneNumberView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\ResortView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\TicketView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\TripView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
   <ItemGroup>

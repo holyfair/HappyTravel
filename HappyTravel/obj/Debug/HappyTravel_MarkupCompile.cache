@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\Vladislav\source\repos\HappyTravel\HappyTravel\App.xaml
-5-2037863633
+15-2105751624
 
-37372690869
+481756861249
 14-664729477
-MainWindow.xaml;Views\Authentication\SignInView.xaml;Views\Authentication\SignUpView.xaml;Views\ClientsView.xaml;Views\MainViewManager.xaml;
+MainWindow.xaml;Views\AddWindows\AddClientView.xaml;Views\Authentication\SignInView.xaml;Views\Authentication\SignUpView.xaml;Views\ClientsView.xaml;Views\ContactPersonView.xaml;Views\ContractView.xaml;Views\HotelView.xaml;Views\IncludeView.xaml;Views\MainViewManager.xaml;Views\PassView.xaml;Views\PhoneNumberView.xaml;Views\ResortView.xaml;Views\TicketView.xaml;Views\TripView.xaml;
 
 False
 

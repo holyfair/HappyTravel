@@ -22,7 +22,7 @@ namespace HappyTravel.DataStorage
             }
             catch (Exception e)
             {
-                MessageBox.Show("blyt");
+                MessageBox.Show(e.Message);
             }
         }
 
@@ -44,7 +44,7 @@ namespace HappyTravel.DataStorage
                 {
                     while (reader.Read())
                     {
-                        var client_code = reader.GetString(0);
+                        var client_code = reader.GetInt32(0);
                         var passport_number = reader.GetString(1);
                         var surname = reader.GetString(2);
                         var name = reader.GetString(3);

@@ -5,7 +5,8 @@
         SignIn,
         SignUp,
         MainManager,
-        ClientsView
+        ClientsView,
+        AddClientView
     }
 
     interface INavigationModel
