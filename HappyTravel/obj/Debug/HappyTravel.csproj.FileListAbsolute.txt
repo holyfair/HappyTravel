@@ -22,3 +22,7 @@ C:\Users\Vladislav\source\repos\HappyTravel\HappyTravel\bin\Debug\MySql.Data.xml
 C:\Users\Vladislav\source\repos\HappyTravel\HappyTravel\obj\Debug\HappyTravel.csproj.CopyComplete
 C:\Users\Vladislav\source\repos\HappyTravel\HappyTravel\obj\Debug\Views\Authentication\SignUpView.g.cs
 C:\Users\Vladislav\source\repos\HappyTravel\HappyTravel\obj\Debug\Views\Authentication\SignUpView.baml
+C:\Users\Vladislav\source\repos\HappyTravel\HappyTravel\obj\Debug\Views\MainViewManager.baml
+C:\Users\Vladislav\source\repos\HappyTravel\HappyTravel\obj\Debug\Views\ClientsView.g.cs
+C:\Users\Vladislav\source\repos\HappyTravel\HappyTravel\obj\Debug\Views\MainViewManager.g.cs
+C:\Users\Vladislav\source\repos\HappyTravel\HappyTravel\obj\Debug\Views\ClientsView.baml

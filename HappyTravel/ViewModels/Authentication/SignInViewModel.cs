@@ -81,7 +81,7 @@ namespace HappyTravel.ViewModels
                                        var login = dr.GetString(0);
                                        var password = dr.GetString(1);
                                        StationManager.CurrentUser = new User(login, password);
-                                       MessageBox.Show($"Login successful for user {Login}!");
+                                       NavigationManager.Instance.Navigate(ViewType.MainManager);
                                    }
                                    else
                                    {

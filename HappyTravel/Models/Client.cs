@@ -7,7 +7,7 @@ namespace HappyTravel.Models
     {
         #region Fields
         private string _clientCode;
-        private string _passportNumber;
+        private string _pasportNumber;
         private string _surname;
         private string _name;
         private string _fathersName;
@@ -18,7 +18,7 @@ namespace HappyTravel.Models
 
         #region Properties
         public string ClientCode { get => _clientCode; set => _clientCode = value; }
-        public string PassportNumber { get => _passportNumber; set => _passportNumber = value; }
+        public string PasportNumber { get => _pasportNumber; set => _pasportNumber = value; }
         public string Surname { get => _surname; set => _surname = value; }
         public string Name { get => _name; set => _name = value; }
         public string FathersName { get => _fathersName; set => _fathersName = value; }
@@ -28,10 +28,10 @@ namespace HappyTravel.Models
         #endregion
 
         #region Constructor
-        internal Client(string clientCode, string passportNumber, string surname, string name, string fathersName, DateTime birthDate, int age, string email)
+        internal Client(string clientCode, string pasportNumber, string surname, string name, string fathersName, DateTime birthDate, int age, string email)
         {
             this.ClientCode = clientCode;
-            this.PassportNumber = passportNumber;
+            this.PasportNumber = pasportNumber;
             this.Surname = surname;
             this.Name = name;
             this.FathersName = fathersName;
