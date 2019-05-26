@@ -30,6 +30,9 @@ namespace HappyTravel.Tools.Navigation
                 case ViewType.ContractView:
                     ViewsDictionary.Add(viewType, new ContractView());
                     break;
+                case ViewType.PassView:
+                    ViewsDictionary.Add(viewType, new PassView());
+                    break;
                 default:
                     throw new ArgumentOutOfRangeException(nameof(viewType), viewType, null);
             }

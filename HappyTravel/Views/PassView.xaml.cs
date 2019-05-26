@@ -1,4 +1,6 @@
-﻿using System;
+﻿using HappyTravel.Tools.Navigation;
+using HappyTravel.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,11 +20,12 @@ namespace HappyTravel.Views
     /// <summary>
     /// Interaction logic for PassView.xaml
     /// </summary>
-    public partial class PassView : UserControl
+    public partial class PassView : UserControl, INavigatable
     {
         public PassView()
         {
             InitializeComponent();
+            DataContext = new PassViewModel();
         }
     }
 }

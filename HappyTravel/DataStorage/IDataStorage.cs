@@ -12,6 +12,7 @@ namespace HappyTravel.DataStorage
     {
         ObservableCollection<Client> GetClients();
         ObservableCollection<Contract> GetContract();
+        ObservableCollection<Pass> GetPass();
         //bool UserExists(string login);
 
         //User GetUserByLogin(string login);

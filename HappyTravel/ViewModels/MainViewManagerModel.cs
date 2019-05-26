@@ -54,7 +54,7 @@ namespace HappyTravel.ViewModels
             {
                 return _getPassesCommand ?? (_getPassesCommand = new RelayCommand<object>(o =>
                 {
-
+                    NavigationManager.Instance.Navigate(ViewType.PassView);
                 }));
             }
         }

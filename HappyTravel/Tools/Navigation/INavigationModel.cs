@@ -6,7 +6,8 @@
         SignUp,
         MainManager,
         ClientsView,
-        ContractView
+        ContractView,
+        PassView
     }
 
     interface INavigationModel
